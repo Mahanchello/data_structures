@@ -113,7 +113,7 @@ Doubly linked list operations and complexities:
 For linked lists we have to typically implement a class to work with it.
 
 
-[# Hash tables](./hash_map/README.md)
+#[Hash tables](./hash_map/README.md)
 
 
 # Stacks 
