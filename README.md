@@ -286,6 +286,7 @@ Bottom nodes are called **leaf** nodes.
 Every tree has levels of the nodes. 
 **Full binary tree** - it's a tree where leaf nodes have no children or a node has two children. If a node has children, it should be two children all the time, node can not have only one child to call the tree **full tree**. 
 Example of  full tree:
+```
     *
   /   \
  *     *
@@ -293,8 +294,11 @@ Example of  full tree:
      *   *
     / \
    *   *
+```
+
 The tree is **complete** where every single level of the tree is filled up except the final level that may or may not be filled up. But if the final level has nodes, they should be filled up from left to right. So at the final level we can't have branch wihout a node. (The main thing is nodes filled up from left ro right). 
 Example of complete tree:
+```
         *
       /   \
      *     *
@@ -302,10 +306,12 @@ Example of complete tree:
    *   * *   *
   / \
  *   *
+``` 
 
 The tree is **full** if every node in the tree has either no children nodes or k-children nodes. 
 **Perfect tree** is a tree where all the leaf nodes has the same depth (same amount of the number of levels).
 Example of the perfect binary tree:
+```
             *
        /        \
       *          *
@@ -313,6 +319,7 @@ Example of the perfect binary tree:
    *    *     *     *
   / \  / \   / \   / \
  *  * *   * *   *  *  *
+```
 Operations and complexity: 
 - storing a tree: O(N) space complexity 
 - traversing through the entire tree: O(n) time complexity 
